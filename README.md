@@ -2,6 +2,24 @@
 
 42 school's project on the Dining Philosophers Problem.
 
+### Tests
+```
+./philo 4 310 200 100
+```
+- A philo should die
+
+```
+./philo 5 800 200 200
+```
+- No one should die
+
+```
+./philo 5 800 200 200 7
+```
+- No one should die, and end after 7 eats
+
+
+
 ### Notes
 
 1. parse_args
